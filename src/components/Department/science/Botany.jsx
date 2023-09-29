@@ -1,0 +1,22 @@
+import React from 'react'
+import Component from '../../Component'
+function Botany() {
+  return (
+		<div>
+			<Component
+				src="https://res.cloudinary.com/drbzxsbop/image/upload/v1695891340/g2-min_tqpfur.jpg"
+				title="Department of Botany"
+				para="Studing The Life"
+				para1="Department of Botany was started in the year 1979. Since the inception of the department, it has made tremendous stride in imparting qualitative education. With the constant support of the management, selfless service of the teaching and non-teaching staff and cooperation from the student community, the Department could emerge as a center of excellence in teaching, learning, research and extension activities. The academic, co-curricular and extra-curricular activities have helped immensely in moulding their character, enabling them to be committed and competent individuals in family and society. The qualified and experienced teachers are the backbone of the Department providing inspiration and encouragement. The strong support provided by the Management, the Principal and the Director to the Department in all its activities are commendable. It is to be highlighted that the Department is still striving hard to keep up its motif of excellence in every aspect of its activities, academic and non-academic. The Department takes a conscious effort to expand its teaching program bringing together novel developments in the field with traditional areas of Botany through field excursions and projects. The students are coached and encouraged through remedial teaching and academic guidance. The Department of Botany has got sufficient facilities for teaching honours. There are two laboratories and two lecture rooms. In addition there is an air conditioned culture laboratory in the Department for tissue culture. The laboratories are well equipped to meet the demand of the honours curriculum. The teachers of the department uses LCD projector, Charts, models, Permanent slides, museum specimens and Educational CD’s as teaching aids in the classrooms."
+				para2="Museum: The museum of the Department of Botany is unique for its collections of various botanical specimens. Here several scientific models, dry and wet preserved specimens of Algae, Fungi, Bryophytes, Pteridophytes, gymnosperms, pathological specimens and Palaeobotanical specimens are displayed in a proper order. These are utilized by the respective teachers in a class. Therefore, an interactive method of teaching is built up in the class between the teacher and student. Moreover during botanical excursions many specimens are collected from different ecological habitats and the unique ones are displayed in the museum. So the museum of this department is enriched and updated every year. The botanical museum gives a first hand knowledge of the subject and this type of a visual aid creates an everlasting impression in the minds of the students. Moreover the students are also made aware of, how the specimens are collected, preserved and maintained in the museum."
+				para3="Herbarium: The herbarium is a pride of the Department of Botany. Each year the students of Botany actively participate in excursion trips and collect various plant species. Some species are kept in the Herbarium after proper treatment. The genera of the same family are kept in the common family cover. The families are arranged according to Bentham and Hooker’s system of classification (1862-1883)."
+				para4="Library: Departmental library is a small repository of books (about 400) in the department in addition to the central library. This library is maintained by a teacher of the department who also issue books to the students. A register is maintained to keep record of the books. Each student is allowed to keep the book with them for a week. The main advantage of the library is that while issuing a book, the students can directly interact with the teachers which they can not avail in the main library. This helps the teacher to keep a track on the student’s progress.
+
+Botanical Garden: The botanical garden, besides serving as the repository of the source material for botanical studies, is also geared to cater to the dire need of conserving and enriching plant bio-diversity. The water garden consisting of lily-ponds and vegetated with species of Nelumbium, Nymphaea and associated hydrophytic species."
+			/>
+		</div>
+	);
+}
+
+export default Botany
+

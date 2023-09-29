@@ -1,0 +1,590 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@400;500&family=Arimo:wght@700&family=Bebas+Neue&family=Bricolage+Grotesque:opsz@10..48&family=Heebo:wght@700&family=Inter:wght@600&family=Libre+Franklin&family=Limelight&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,600&family=Proza+Libre&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&family=Tinos&family=Varela&family=Varela+Round&family=Zilla+Slab:wght@500;600&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+html{
+    background-color:"white"
+}
+#video-banner {
+	position: absolute;
+	top: 160px;
+	left: 0;
+	width: 100vw;
+	height: 73%;
+	box-sizing: border-box;
+	object-fit: cover;
+	z-index: -1;
+    border-bottom: 10px solid rgb(255, 0, 0);
+}
+
+body {
+	background-color: white;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 90%;
+	/* background-color: rgba(253, 117, 117, 0.432); Transparent white color */
+	/* background:linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(255, 0, 232, 0.3)); */
+	/* background: radial-gradient(
+		circle,
+		rgba(0, 0, 0, 0.278) 0%,
+		rgba(0, 0, 0, 0.089) 0%,
+		rgba(0, 0, 0, 0.404) 100%
+	); */
+
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+	z-index: -1;
+}
+:root {
+	--brand-primary: #d63384;
+	--brand-secondary: #ffffff;
+	--space-lg-width-gutter: 3rem;
+	--space-md-width-gutter: 2rem;
+	--space-sm-width-gutter: 1.25rem;
+}
+#content {
+	font-family: "Libre", serif;
+	position: relative; 
+	text-align: center;
+	color: #fff;
+	z-index: 2; 
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+ #content h4 {font-family: 'Roboto', serif;
+    font-family: 'Bebas Neue', sans-serif;
+	font-size: 7rem;
+	font-weight: bolder;
+    letter-spacing: .3rem;
+} 
+.title2{font-family: 'Roboto', serif;
+    font-family: 'Bebas Neue', sans-serif;
+	font-size: 7rem;
+	font-weight: bolder;
+    letter-spacing: .3rem;}
+.bttn--primary {
+	margin-right: 30px;
+	cursor: pointer;
+	list-style: none;
+	background: var(--brand-primary);
+	border-color: var(--brand-primary);
+	color: var(--brand-secondary);
+}
+.bttn {
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 1.4;
+	font-family: Antonio, Antonio-fallback, sans-serif;
+	font-size: 1.25rem;
+	padding: 1rem 2rem;
+	-webkit-font-smoothing: auto;
+	-moz-osx-font-smoothing: auto;
+	border: none;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.container img {
+	display: block;
+	margin-top: 20px; 
+	max-width: 100%;
+	height: auto;
+}
+
+.image-container {
+	margin-top: 20rem;
+}
+
+
+
+
+.cards2 {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-auto-rows: auto;
+	/* grid-auto-columns: auto; */
+    row-gap: 100px;
+    column-gap: 50px;
+}
+
+
+
+
+
+@media (max-width: 808px) {
+    .cards2 {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+
+
+.card2:hover{
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ cursor: pointer;
+ transition: 0.5s ease;
+}
+ /* #content i{
+	margin-top: -100px !important;
+	
+ } */
+
+.show-more-button  button{
+	
+	padding: .6rem 1rem;
+	color: rgb(255, 255, 255);
+	outline: none;
+	border: none;
+	background-color: rgb(94, 30, 30);
+	font-weight: 600;
+	border-radius: 5px;
+}
+.numbers{
+	margin-top:5%;
+}
+.numbers dd,.numbers dt{
+	color: rgb(122, 20, 20)
+}
+.numbers .flex{
+	background-color: rgba(207, 120, 120, 0.384);
+}
+
+.card2{
+	width: fit-content !important;
+   }
+@media screen and (max-width: 1700px)  {
+   .card2{
+	width: fit-content !important;
+   }
+ #content h4{
+    font-size:5rem !important;
+  }
+
+    .popup section{ 
+  width:250px !important;
+  height: 180px !important;
+
+  }
+   .popup section h2{
+	margin-top: -0.5rem;
+font-size: 1.3rem;
+   }
+   .popup section a{
+	margin-top: 1.2rem !important;
+	padding:0.8rem 0rem !important
+   }
+  #content h4{
+	margin-top: 1rem;
+   }
+    #content{
+		margin-top: 1rem;
+	}
+	#content .fa-quote-right{
+	/* right:270px */
+}
+
+}
+
+
+@media screen and (max-width: 1470px)  {
+   /* .container1 h4{
+    font-size:4rem !important;
+  } */
+  .title2{
+	margin-top: -5rem !important; 
+  }
+  .popup{
+  width:200px;
+  height: 150px;
+  }
+    .popup section{ 
+  width:300px;
+  height: 170px;
+
+  }
+   .popup section h2{
+	margin-top: -0.5rem;
+font-size: 1.3rem;
+   }
+   .popup section a{
+	margin-top: -0.2rem;
+	padding:0.8rem 0.8rem !important
+   }
+   #content { 
+	margin-top: 15rem !important;
+   }
+
+}
+a{
+	text-decoration: none !important
+}
+@media screen and (max-width: 1350px) {
+
+    .popup section{ 
+  width:250px !important;
+  height: 200px;
+
+  }
+   .popup section h2{
+	margin-top: -0.5rem;
+font-size: 1.3rem;
+   }
+   .popup section a{
+	padding:0.8rem 0rem !important
+   }
+
+   #content a{
+	margin-top: -1.5rem;
+   }
+
+   #content{
+	margin-top: 240px !important;
+   }
+     .title2{
+	margin-top: -10rem !important; 
+  }
+}
+
+@media screen and (max-width: 1315px) {
+	#video-banner{
+		top: 73px;
+	}
+	.overlay{
+		height: 80%;
+	}
+	  .popup section{ 
+  width:200px !important;
+  height: 180px;
+
+  }
+    .popup section p{
+	margin-bottom: 1rem !important;
+   }
+}
+@media screen and (max-width: 1150px) {
+.navbar-toggler{
+	border: none !important;
+	outline: none;
+	color: #d63384;
+}
+    .popup section{ 
+  width:200px !important;
+  height: 180px;
+
+  }
+   .popup section h2{
+	margin-top: -0.8rem;
+font-size: 1.3rem;
+   }
+   .popup section a{
+	margin-top: -0.2rem;
+	padding:0.6rem 0rem !important;
+	font-size: .8rem;
+	
+   }
+
+   #content a{
+	margin-top: -1.5rem;
+	padding: .7rem 1rem;
+   }
+
+   #content{
+	margin-top: 260px !important;
+   }
+   #content h4{
+font-size: 4rem !important;
+   }
+
+
+}
+
+@media screen and (max-width: 860px){
+	   #content h4{
+		margin-left: -3rem;
+font-size: 3.89rem !important;
+   }
+}
+
+@media screen and (max-width: 820px){
+	   #content h4{
+		margin-left: -3rem;
+font-size: 3.2rem !important;
+   }
+   #content i{
+	font-size: 2rem !important;
+   }
+   .title2{
+	margin-top: 1rem !important;
+   }
+}
+
+@media screen and (max-width: 687px){
+	   #content h4{
+		margin-left: -3rem;
+font-size: 2rem !important;
+   }
+}
+
+@media screen and (max-width: 760px) {
+
+    .popup section{ 
+  width:200px !important;
+  height: 130px !important;
+
+  }
+   .popup section h2{
+	display: none;
+   }
+   .popup section a{
+	padding:0.6rem 0rem !important;
+	font-size: .8rem;
+	
+   }
+
+   .popup section .p-8{
+	padding: 1rem;
+   }
+  .popup section .p-8 p{
+font-weight: 900 !important;
+font-size: 1.19rem;
+   }
+
+   #content a{
+	margin-top: -1.3rem;
+	padding: .7rem 1rem;
+   }
+
+   #content{
+	margin-top: 240px !important;
+   }
+
+
+}
+
+
+@media screen and (max-width: 550px) {
+.popup{display: none;}
+#content h4{
+margin-left: -10px !important;
+}
+/* .meImg{
+margin-top:-90px !important;
+} */
+.title2{
+	margin-top: 20rem !important;
+	margin-bottom: -1rem !important;
+	font-size: 4rem;
+}
+
+}
+#content .fa-quote-right{
+	margin-right: 30px !important;
+}
+
+
+
+
+/* doubt part */
+@media screen and (max-width: 490px) {
+#content h4{
+	margin-top: -10px;
+	font-size: 4rem !important;
+}
+  #content a{
+	margin-top: -1rem;
+	padding: .5rem .8rem;
+	font-size: 1rem;
+   }
+.cards2 .card2{
+  width: 300px !important;
+}
+#content .fa-quote-right{
+right: -10px;
+}
+
+#content{
+	margin-top: 50px !important;
+}
+
+}
+
+@media screen and (max-width: 460px) {
+#content h4{
+	margin-top: -10px;
+	font-size: 4rem !important;
+	letter-spacing: normal;
+}
+  #content a{
+	margin-top: -1rem;
+	padding: .4rem .6rem;
+	font-size: .8rem;
+   }
+   #content .bttn-row{
+	margin-left: 30px;
+   }
+.cards2{
+	margin-left: 48px;
+}
+   .cards2 .card2{
+  width: 280px !important;
+  height:370px  !important;
+
+}
+
+.card2 artical{
+	/* height: 350px !important; */
+}
+.card2 .p-4{
+	height: 230px !important;
+}
+.card2 .p-4 .group{
+	margin-top:-3rem !important;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+#content h4{
+	margin-top: -10px;
+	font-size: 4rem !important;
+	letter-spacing: normal;
+}
+#content{
+	margin-left: -20px;
+}
+  #content a{
+	margin-top: -.5rem;
+	padding: .6rem .8rem;
+	font-size: .9rem;
+   }
+   #content .bttn-row{
+	margin-left: 30px;
+   }
+
+#content i{
+	font-size: 1.2rem !important; 
+}
+
+}
+
+@media screen and (max-width:1315px) and (max-height:790px) {
+	  .title2{
+	margin-top: -15rem !important; 
+  }
+}
+
+@media screen and (max-width:500px) and (max-height:790px) {
+	  .title2{
+	margin-top: -1rem !important; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+#content h4{
+	font-size: 2.8rem !important;
+}
+#content{
+	margin-left: -10px;
+	margin-top: 70px !important;
+	width: 360px;
+	margin: 0 auto;
+}
+  #content a{
+	margin-top: -.5rem;
+	padding: .5rem .7rem;
+	font-size: .9rem;
+   }
+   #content .bttn-row{
+	margin-left: 30px;
+   }
+
+#content i{
+	display: none !important;
+}
+.cards2 {
+	margin-left: 30px;
+}
+}
+
+@media screen and (max-width: 370px) {
+
+#content h4{
+text-align: center;
+font-size: 4rem !important;
+}
+#content{
+	margin-top: 4rem !important;
+	margin-left: -10px;
+	width: 300px;
+	margin: 0 auto;
+}
+  #content a{
+	margin-top: -.5rem;
+	margin-left: -.7rem;
+	padding: .5rem .7rem;
+	font-size: .9rem;
+   }
+   #content .bttn-row{
+	margin-left: 30px;
+   }
+
+#content i{
+	display: none !important;
+}
+.card2 .p4{
+max-width: 300px !important;
+min-height: 300px !important;
+}
+.cards2 {
+	margin-left: 17px;
+}
+
+.nav_content .container-fluid{
+	margin: 0 !important;
+	max-width: 100%;
+}
+.menu1{
+	padding: 29px 0px !important;
+}
+
+.menu1Links{
+  margin-left: -6rem !important;
+}
+
+.title2{
+	margin-top: -4rem !important;
+}
+}
+
+@media screen and (max-width: 340px) {
+/* .container-fluid{width: 211px !important;} */
+.title2 {
+margin-top:-3rem !important;
+font-size: 2.4rem !important;
+margin-bottom: -3rem !important;
+}
+.card2{
+	margin-left:-10px;
+}
+
+}
+
+

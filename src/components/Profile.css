@@ -1,0 +1,123 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Bebas+Neue&family=Bricolage+Grotesque:opsz@10..48&family=Heebo:wght@700&family=Inter:wght@600&family=Limelight&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&family=Tinos&family=Varela&family=Varela+Round&display=swap');
+
+.description-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  color: #ffffff;
+  background-color: rgba(77, 82, 99, 0.479);
+  padding: 10px 40px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+
+  z-index: -1;
+}
+/* .overlay {
+  position: absolute;
+  top: 160px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.445); 
+  z-index: 1;
+} */
+
+.description-content { 
+  margin-top: 60px;
+  background-color: #791e1ebe;
+  padding: .8rem 1.3rem;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  text-align: center;
+box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.226);
+  width: 80%;
+  z-index: 1;
+
+}
+
+.title {
+  margin-top: 30px;
+font-family: 'Roboto', sans-serif;
+font-family: 'Bricolage Grotesque', sans-serif;
+letter-spacing: .5rem;
+  font-size: 3rem;
+  margin-bottom: 20px;
+
+
+   &:after {
+          content: "";
+          /* margin: 4px 585px 10px; */
+          margin:20px auto ;
+          position: static;
+          display: block;
+          width: 20%;
+          height: 4px;
+          border-radius: 2px;
+          background: linear-gradient(90deg, #ffffff, #57143b); 
+        }
+}
+
+.text {  font-family: 'Tinos', serif;
+font-family: "Poppins";
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.btn {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff5500;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #d44400;
+}
+
+.text p{
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 680px) {
+
+    .description-content {
+      width: 120% !important;
+      
+    }
+.description-container{
+    max-width: 600px !important;
+}
+    .description-content .text{
+          font-size: 90%;
+    }
+      .description-content .title{
+          font-size: 100%;
+          font-weight: 900;
+    }
+.description-content .title{
+
+}
+  }
+
+
+ 

@@ -1,0 +1,33 @@
+/* .grid__item img{
+margin: 0 auto !important;
+margin-left: -100px !important;
+} */
+
+@media (max-width:500px){
+    .grid__item{
+    /* margin: 0 auto !important; */
+margin-left: -100px !important;
+}
+    .grid__item img{
+  max-width: 100% !important;
+    }
+}
+
+@media (max-width:446px){
+    .grid__item{
+    /* margin: 0 auto !important; */
+margin-left: -100px !important;
+ max-width: 100% !important;
+}
+   
+}
+
+
+@media (max-width:380px){
+    .grid__item{
+    /* margin: 0 auto !important; */
+margin-left: -130px !important;
+ max-width: 100% !important;
+}
+   
+}

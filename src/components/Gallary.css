@@ -1,0 +1,28 @@
+.mb-lg-0 img {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 500px; /* Set your initial width here */
+  height: 350px; /* Set your initial height here */
+  transition: box-shadow 0.5s ease, width 0.5s ease, height 0.5s ease;
+  cursor: pointer;
+}
+
+.mb-lg-0 img:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 700px; /* Set your target width here */
+  height: 400px; /* Set your target height here */
+}
+
+ .col-md-12 img {
+  max-width: 100%; /* Ensure images don't exceed their container width */
+  object-fit: cover; 
+  display: block;
+  margin: 0 auto; /* Center the images horizontally */
+}
+@media (max-width: 600px) {
+ .col-md-12 img {
+    max-width: 100%; /* Adjust card width for small screens */
+  }
+}
+
+
+
