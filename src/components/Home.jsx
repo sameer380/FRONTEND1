@@ -261,7 +261,7 @@ function Home() {
 										<div className="relative h-64 sm:h-80 lg:h-full">
 											<img
 												alt="College Image"
-												src="https://scontent.fvga1-2.fna.fbcdn.net/v/t31.18172-8/14444591_297203563995328_8381065143679874093_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_ohc=ZYzvh2_8CTwAX_4I5QP&_nc_ht=scontent.fvga1-2.fna&oh=00_AfA3HOGPyP2mxJFixv_c34R0yx9Mcs33SKSc5Du6kB7vEw&oe=6516B378"
+												src="https://res.cloudinary.com/drbzxsbop/image/upload/v1695891347/homeClg-min_xknlsg.jpg"
 												className="absolute inset-0 h-full w-full object-cover"
 											/>
 										</div>

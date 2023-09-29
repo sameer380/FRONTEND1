@@ -74,11 +74,11 @@ const passRegex = /^2\d{5}[pP]$/;
 
 
 
-	const url = "https://pbscbackend.onrender.com/";
+	const url = "https://pbscbackend2.onrender.com/";
 
     try {
 		const response = await axios.post(
-			"https://pbscbackend.onrender.com/register",
+			"https://pbscbackend2.onrender.com/register",
 			{
 				firstName: firstName,
 				lastName: lastName,

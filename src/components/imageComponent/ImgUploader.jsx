@@ -25,7 +25,7 @@ function ImgUploader() {
 		if (localStorage.getItem("jwt")) {
 			setLoading(true);
 			axios
-				.get("http://localhost:5000/api/get")
+				.get("https://pbscbackend2.onrender.com/api/get")
 				// .get("https://pbscbackend.onrender.com/api/get")
 				.then((res) => {
 						setLoading(false);
