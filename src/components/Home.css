@@ -586,5 +586,10 @@ margin-bottom: -3rem !important;
 }
 
 }
-
+.bttn-row .bg-pink-600{
+cursor: alias;
+}
+.bttn-row .bg-pink-600:hover{
+color:white
+}
 
