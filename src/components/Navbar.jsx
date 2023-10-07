@@ -159,7 +159,7 @@ function Navbar() {
 							) : (
 								<button className="login"
 									onClick={() => {
-										navigate("/signin");
+										navigate("/register");
 									}}
 									style={{
 										// borderRadius: "30px",
