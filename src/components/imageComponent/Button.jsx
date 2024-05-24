@@ -14,7 +14,7 @@ const Button = ({ setUpdateUI }) => {
 		axios
 			// .post("https://pbscbackend23.onrender.com/api/save", formData)
 			
-			 .post("https://pbscbackend2.onrender.com/api/save", formData) 
+			 .post("https://collegebackend-l0an.onrender.com/api/save", formData) 
 			
 			.then((res) => {
 				console.log(res.data);
