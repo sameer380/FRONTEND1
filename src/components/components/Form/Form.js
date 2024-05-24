@@ -78,7 +78,7 @@ const passRegex = /^2\d{5}[pP]$/;
 
     try {
 		const response = await axios.post(
-			"https://pbscbackend2.onrender.com/register",
+			"https://collegebackend-l0an.onrender.com/register",
 			{
 				firstName: firstName,
 				lastName: lastName,
