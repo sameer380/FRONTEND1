@@ -15,7 +15,7 @@ function Blitz() {
 	
 	const handleGoogleAuth = () => {
 		// Send a request to your backend to initiate Google authentication
-		fetch("https://pbscbackend23.onrender.com/auth")
+		fetch("https://collegebackend-l0an.onrender.com/auth")
 			.then((response) => response.json())
 			.then((data) => {
 				// Redirect the user to the Google authentication URL
@@ -43,7 +43,7 @@ function Blitz() {
 	useEffect(() => {
 		// Make a request to your Node.js server to fetch videos
 		axios
-			.get("https://pbscbackend23.onrender.com/listVideos")
+			.get("https://collegebackend-l0an.onrender.com/listVideos")
 			.then((response) => {
 				// Filter videos to only include playable ones
 				const playableVideos = response.data.filter(isVideoPlayable);
